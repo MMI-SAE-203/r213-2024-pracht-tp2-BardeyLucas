@@ -1,19 +1,9 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
-const maisonsListe: {
-  adresse: string;
-  collectionId: string;
-  collectionName: string;
-  created: string;
-  favori: boolean;
-  id: string;
-  image: string[];
-  nbChambre: number;
-  nbSdb: number;
-  nomMaison: string;
-  prix: number;
-  surface: number;
-  updated: string;
-}[] = [
+import type { MaisonsRecord } from '@/types';
+
+
+const maisonsListe:MaisonsRecord[] = [
     {
       "adresse": "Jardin",
       "collectionId": "pjypqk0lmwt0n1u",
@@ -100,9 +90,11 @@ const maisonsListe: {
       "updated": "2024-05-01 12:57:59.613Z"
     }
   ]
+console.log(maisonsListe);
 
 </script>
 
 <template>
   <h1 class="text-2xl">Bonjour monde !</h1>
+  <MaisonCard v-bind="maisonsListe[0]" />
 </template>
