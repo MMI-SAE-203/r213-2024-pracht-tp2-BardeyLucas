@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import type { MaisonsRecord } from '@/types';
-
+import MaisonCard from '@/components/MaisonCard.vue';
 
 const maisonsListe:MaisonsRecord[] = [
     {
@@ -96,5 +96,5 @@ console.log(maisonsListe);
 
 <template>
   <h1 class="text-2xl">Bonjour monde !</h1>
-  <MaisonCard v-bind="maisonsListe[0]" />
+  <MaisonCard v-for="MaisonsRecord in maisonsListe" :key="MaisonsRecord.nomMaison" v-bind="MaisonsRecord" />
 </template>
