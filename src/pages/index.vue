@@ -2,9 +2,9 @@
 <script setup land="ts">
 </script>
 <template>
-  <section class="bg-[url('@/components/img/hero.png')] h-[calc(100vh-6.5rem)] bg-cover bg-hero">
-    <div class="w-screen h-[calc(100vh-6.5rem)] bg-gradient-to-r from-Rose50 via-Violet50 to-Cyan50">
-      <h1 class="text-Blanc">Venez découvrir Cardeleon</h1>
+  <section class="bg-[url('@/components/img/hero.png')] h-[calc(100vh-3.5rem)] bg-cover bg-hero">
+    <div class="w-screen h-[calc(100vh-3.5rem)] bg-gradient-to-r from-Rose50 via-Violet50 to-Cyan50 grille">
+      <h1 class="text-Blanc col-span-12">Venez découvrir Cardeleon</h1>
       <p class="text-Blanc">C’est l’heure de vraiment économiser, avec ça carte étudiante !</p>
       <button class="text-Blanc">Rechercher vos offres maintenant</button>
       <button class="text-Blanc">d</button>
