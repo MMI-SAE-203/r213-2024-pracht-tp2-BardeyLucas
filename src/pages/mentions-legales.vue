@@ -33,7 +33,7 @@
     </section> 
     <section>
         <h2>Hébergeur du site</h2>
-        <p>Infomaniak – SAS au capital de 102 000 CHF –  N° TVA : CHE-103.167.648 – Tél, +41 22 82 35 44  – Siège social : 25, rue Eugène Marziano 1227 Les Acacias  – Suisse.</p>
+        <p>Infomaniak – SAS au capital de 102 000 CHF – N° TVA : CHE-103.167.648 – Tél, +41 22 82 35 44 – Siège social : 25, rue Eugène Marziano 1227 Les Acacias – Suisse.</p>
     </section>
     <section>
         <h3>Gestion des litiges</h3>

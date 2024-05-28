@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
   <style>
     .cls-1 {
       fill: url(#Dégradé_sans_nom_27-2);

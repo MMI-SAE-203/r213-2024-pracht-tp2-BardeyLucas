@@ -3,7 +3,7 @@
 <template>
     <h1>Conditions générales d’utilisation (CGU)</h1>
     <h2>Conditions d’utilisation de notre site</h2>
-    <p>La lecture de nos conditions générales d'utilisation vous permettra de d’éviter tout quiproquo. </p>
+    <p>La lecture de nos conditions générales d'utilisation vous permettra de d’éviter tout quiproquo. </p>
     <p>En utilisant notre site, vous acceptez les règles énoncées ci-dessous. Si une quelconque information dans le
         règlement ne vous convient pas, nous vous conseillons de chercher d’autres informations extérieures pour
         répondre à vos besoins.</p>
