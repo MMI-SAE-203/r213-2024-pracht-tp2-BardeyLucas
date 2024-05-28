@@ -4,7 +4,7 @@
 
 @layer components {
   .grille {
-    @apply grid lg:grid-cols-principal grid-cols-principal md:grid-cols-principal justify-center gap-x-5 px-12;
+    @apply grid lg:grid-cols-principal grid-cols-telprincipal justify-center gap-x-2.5 lg:gap-x-5 lg:px-12;
   }
 
   /*j'ai tenté ça pour être sur de pouvoir toujours garder la même grid de base*/

@@ -1,23 +1,33 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup land="ts">
+import fleche from '@/components/icons/indication-button-black-background.vue'
+import localisation from '@/components/icons/localisation.vue';
+import classique from '@/components/icons/classique.vue';
 </script>
 <template>
-  <section class="bg-[url('@/components/img/hero.png')] h-[calc(100vh-3.5rem)] bg-cover bg-hero">
-    <div class="w-screen h-[calc(100vh-3.5rem)] bg-gradient-to-r from-Rose50 via-Violet50 to-Cyan50 grille">
-      <h1 class="text-Blanc col-span-12">Venez découvrir Cardeleon</h1>
-      <p class="text-Blanc">C’est l’heure de vraiment économiser, avec ça carte étudiante !</p>
-      <button class="text-Blanc">Rechercher vos offres maintenant</button>
-      <button class="text-Blanc">d</button>
+  <section class="bg-[url('@/components/img/hero.png')] h-[calc(100vh-6.5rem)] bg-cover bg-hero">
+    <div class="grille w-screen h-[calc(100vh-6.5rem)] bg-gradient-to-r from-Rose50 via-Violet50 to-Cyan50">
+      <h1 class="text-Blanc col-span-12 pt-9 font-title font-bold text-3xl lg:text-7xl">Venez découvrir Cardeleon</h1>
+      <p class="text-Blanc col-start-2 col-span-10 font-title font-semibold text-xl lg:text-4xl">C’est l’heure de
+        vraiment économiser, avec ça carte étudiante !</p>
+      <button
+        class="text-Blanc col-start-2 col-span-10 lg:w-[25rem] lg:mx-auto border-white border-4 rounded-full h-12 text-sans text-sm lg:text-xl fond-regular">Rechercher
+        vos offres maintenant</button>
+      <fleche class="text-Blanc hidden lg:block col-span-12 mx-auto w-20" />
     </div>
   </section>
-  <section>
-    <button>
-      <img>
-      <p>Recherche par localisation</p>
+  <section class="grille mt-5">
+    <button class="col-start-2 col-span-4 col4">
+      <div class="col-start-2 col-span-2 place-items-center flex bg-AltBlanc h-11 rounded-full shadow-circleshadow">
+        <localisation class="w-7 mx-auto" />
+      </div>
+      <p class="col-span-4 mt-2 text-sans text-sm font-regular">Recherche par localisation</p>
     </button>
-    <button>
-      <img>
-      <p>Recherche classique</p>
+    <button class="col-start-8 col-span-4 col4">
+      <div class="col-start-2 col-span-2 place-items-center flex bg-AltBlanc h-11 rounded-full shadow-circleshadow">
+        <classique class="w-7 mx-auto" />
+      </div>
+      <p class="col-span-4 mt-2 text-sans text-sm font-regular">Recherche classique</p>
     </button>
     <!-- <Map />
     <ClassiqueCard /> -->
