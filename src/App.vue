@@ -9,5 +9,5 @@ import FooterPage from './components/FooterPage.vue'
   <main>
     <RouterView />
   </main>
-  <FooterPage />
+  <!-- <FooterPage /> -->
 </template>

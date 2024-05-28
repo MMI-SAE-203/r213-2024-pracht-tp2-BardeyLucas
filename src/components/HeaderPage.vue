@@ -11,11 +11,11 @@ import logo from './logo.vue'
     <header class="bg-Noir text-Blanc flex justify-between px-10 py-4 w-screen">
         <div>
             <a class="flex gap-4">
-                <logo class="h-[4.5rem]" />
-                <h2 class="font-firstTitle text-5xl my-auto">Cardeleon</h2>
+                <logo class="h-9 lg:h-[4.5rem]" />
+                <h2 class="font-firstTitle text-2xl lg:text-5xl my-auto">Cardeleon</h2>
             </a>
         </div>
-        <nav class="flex gap-12">
+        <nav class=" gap-12 hidden lg:flex">
             <form class="flex text-Noir gap-12">
                 <div class="my-auto">
                     <button>
