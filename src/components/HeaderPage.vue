@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import loupe from './icons/loupe.vue'
+import loupeBlanche from './icons/loupeBlanche.vue'
 import logo from './logo.vue'
 </script>
 <style scoped>
@@ -19,7 +19,7 @@ import logo from './logo.vue'
             <form class="flex text-Noir gap-12">
                 <div class="my-auto">
                     <button>
-                        <loupe class="w-12" />
+                        <loupeBlanche class="w-12" />
                     </button>
                 </div>
                 <div class="my-auto">

@@ -3,6 +3,7 @@
 import fleche from '@/components/icons/indication-button-black-background.vue'
 import localisation from '@/components/icons/localisation.vue';
 import classique from '@/components/icons/classique.vue';
+import loupeNoir from '@/components/icons/loupeNoir.vue';
 </script>
 <template>
   <section class="bg-[url('@/components/img/hero.png')] h-[calc(100vh-6.5rem)] bg-cover bg-hero">
@@ -29,6 +30,10 @@ import classique from '@/components/icons/classique.vue';
       </div>
       <p class="col-span-4 mt-2 text-sans text-sm font-regular">Recherche classique</p>
     </button>
+    <nav class="col-start-2 col-span-10 bg-AltBlanc h-10 shadow-searchshadow flex items-center rounded-full mt-5 gap-2.5">
+      <loupeNoir class="w-6"/>
+      <p>Fnac belfort</p>
+    </nav>
     <!-- <Map />
     <ClassiqueCard /> -->
   </section>
