@@ -30,9 +30,10 @@ import loupeNoir from '@/components/icons/loupeNoir.vue';
       </div>
       <p class="col-span-4 mt-2 text-sans text-sm font-regular">Recherche classique</p>
     </button>
-    <nav class="col-start-2 col-span-10 bg-AltBlanc h-10 shadow-searchshadow flex items-center rounded-full mt-5 gap-2.5">
-      <loupeNoir class="w-6"/>
-      <p>Fnac belfort</p>
+    <nav
+      class="col-start-2 col-span-10 bg-AltBlanc h-10 shadow-searchshadow flex items-center rounded-full my-5 gap-2.5 px-6">
+      <loupeNoir class="w-6" />
+      <p class="text-sans text-sm font-regular">Fnac belfort</p>
     </nav>
     <!-- <Map />
     <ClassiqueCard /> -->
