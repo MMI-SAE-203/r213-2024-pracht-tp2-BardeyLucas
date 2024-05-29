@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer components  {
   .grille {
     @apply grid lg:grid-cols-principal grid-cols-telprincipal justify-center gap-x-2.5 lg:gap-x-5 lg:px-12;
   }
