@@ -9,51 +9,55 @@
 
   /*j'ai tenté ça pour être sur de pouvoir toujours garder la même grid de base*/
   .col1 {
-    @apply grid lg:grid-cols-1 grid-cols-1 md:grid-cols-1 justify-center gap-x-5;
+    @apply grid lg:grid-cols-1 grid-cols-tel1 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col2 {
-    @apply grid lg:grid-cols-2 grid-cols-2 md:grid-cols-2 justify-center gap-x-5;
+    @apply grid lg:grid-cols-2 grid-cols-tel2  justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col3 {
-    @apply grid lg:grid-cols-3 grid-cols-3 md:grid-cols-3 justify-center gap-x-5;
+    @apply grid lg:grid-cols-3 grid-cols-tel3 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col4 {
-    @apply grid lg:grid-cols-4 grid-cols-4 md:grid-cols-4 justify-center gap-x-5;
+    @apply grid lg:grid-cols-4 grid-cols-tel4 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col5 {
-    @apply grid lg:grid-cols-5 grid-cols-5 md:grid-cols-5 justify-center gap-x-5;
+    @apply grid lg:grid-cols-5 grid-cols-tel5 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col6 {
-    @apply grid lg:grid-cols-6 grid-cols-6 md:grid-cols-6 justify-center gap-x-5;
+    @apply grid lg:grid-cols-6 grid-cols-tel6 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col7 {
-    @apply grid lg:grid-cols-7 grid-cols-7 md:grid-cols-7 justify-center gap-x-5;
+    @apply grid lg:grid-cols-7 grid-cols-tel7 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col8 {
-    @apply grid lg:grid-cols-8 grid-cols-8 md:grid-cols-8 justify-center gap-x-5;
+    @apply grid lg:grid-cols-8 grid-cols-tel8 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col9 {
-    @apply grid lg:grid-cols-9 grid-cols-9 md:grid-cols-9 justify-center gap-x-5;
+    @apply grid lg:grid-cols-9 grid-cols-tel9 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col10 {
-    @apply grid lg:grid-cols-10 grid-cols-10 md:grid-cols-10 justify-center gap-x-5;
+    @apply grid lg:grid-cols-10 grid-cols-tel10 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col11 {
-    @apply grid lg:grid-cols-11 grid-cols-11 md:grid-cols-11 justify-center gap-x-5;
+    @apply grid lg:grid-cols-11 grid-cols-tel11 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
   }
 
   .col12 {
-    @apply grid lg:grid-cols-12 grid-cols-12 md:grid-cols-12 justify-center gap-x-5;
+    @apply grid lg:grid-cols-12 grid-cols-tel12 justify-center gap-x-2.5 lg:gap-x-5 lg:px-0;
+  }
+
+  .supprGrille {
+    @apply block;
   }
 }
 
