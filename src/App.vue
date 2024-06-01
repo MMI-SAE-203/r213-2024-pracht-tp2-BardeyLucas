@@ -7,7 +7,7 @@ import FooterPage from './components/FooterPage.vue'
 <template>
   <HeaderPage />
   <main class="bg-Blanc">
-    <!-- <RouterView /> -->
+    <RouterView />
   </main>
-  <!-- <FooterPage /> -->
+  <FooterPage />
 </template>
