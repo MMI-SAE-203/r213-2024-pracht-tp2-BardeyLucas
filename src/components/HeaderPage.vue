@@ -18,7 +18,7 @@ function closeMenu() {
 <template>
     <header class="lg:grille bg-Noir text-Blanc lg:py-4 py-2.5 w-screen">
         <div class="grille lg:supprGrille lg:col-span-3">
-            <a class="col-span-6 col6 lg:col3">
+            <a class="col-span-6 col6 lg:col3 ">
                 <logo class="w-full my-auto lg:h-[4.5rem] col-span-2 lg:col-span-1" />
                 <h2 class="font-firstTitle text-2xl lg:text-5xl my-auto col-span-4 lg:col-span-2">Cardeleon</h2>
             </a>
